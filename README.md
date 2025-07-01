@@ -47,10 +47,11 @@ cd your-repo-name
 ```
 composer install
 ```
-### 3. Configure Environment
+### 3. bKash API Configuration
 Copy .env.example to .env and set the following:
 ⚠️ Replace the values with your bKash credentials.
 ```
+# Use BKASH_MODE is 'sandbox' for testing, 'live' for real payments
 BKASH_MODE=sandbox
 BKASH_APP_KEY=your_app_key
 BKASH_APP_SECRET=your_app_secret
