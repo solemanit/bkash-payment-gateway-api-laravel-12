@@ -1,6 +1,8 @@
-# 🚀 bKash Payment Gateway Integration for Laravel
+# 🚀 bKash Payment Gateway Integration for Laravel v12
 
-This Laravel project provides a clean and customizable integration of the **bKash Tokenized Checkout API** (v1.2.0-beta) for seamless BDT payments in your application.
+bKash Payment Gateway Integration for Laravel v12 is a simple and secure implementation of bKash Tokenized Checkout (v1.2.0-beta) for both sandbox and live environments.
+
+This package allows developers to accept payments through bKash directly from their Laravel applications using token-based authentication. It supports payment creation, execution, and status query with clean, modular code architecture.
 
 ---
 
