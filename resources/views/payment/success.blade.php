@@ -32,7 +32,7 @@
                         </tr>
                         <tr>
                             <th class="bg-light">Date</th>
-                            <td>{{ $payment['paymentExecuteTime'] ? \Carbon\Carbon::parse($payment['paymentExecuteTime'])->format('d M Y, h:i A') : 'N/A' }}</td>
+                            <td>{{ $payment['paymentExecuteTime'] ?? 'N/A' }}</td>
                         </tr>
                         <tr>
                             <th class="bg-light">Status</th>
