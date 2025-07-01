@@ -41,8 +41,6 @@ This package allows developers to accept payments through bKash directly from th
 
 1. Sign up at [bKash Merchant Wallet](https://pgw-integration.bkash.com/#/sign-up)  
 2. Get your **sandbox credentials**
-3. Set `'mode' => 'sandbox'` in `api.php`
-
 ---
 
 ## ⚙️ Installation & Setup
